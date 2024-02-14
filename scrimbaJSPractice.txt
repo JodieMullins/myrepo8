@@ -1,0 +1,22 @@
+// Create two variables, firstName and lastName
+let firstName = Jodie
+let lastName = Mullins
+
+// Concatenate the two variables into a third variable called fullName
+let fullName = firstName + " " + lastName
+
+// Log fullName to the console
+console.log(fullName)
+
+
+
+
+
+
+let nameToGreet = "Linda"
+let greeting = "Hi there"
+// Create a function that logs out "Hi there, Linda!" when called
+function greetLinda() {
+    createStatement = greeting + ", " + nameToGreet + "!"
+    console.log(createStatement)
+}
