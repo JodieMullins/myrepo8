@@ -20,3 +20,92 @@ function greetLinda() {
     createStatement = greeting + ", " + nameToGreet + "!"
     console.log(createStatement)
 }
+
+let points = 0
+
+function add3Points() {
+    points += 3
+    console.log(points)
+}
+
+function remove1Point() {
+    points -= 1
+    console.log(points)
+}
+
+add3Points
+remove1Point
+add3Points
+remove1Point
+add3Points
+add3Points
+
+console.log(points)
+
+
+
+
+
+
+
+
+
+// Try to predict what each of the lines will log out
+console.log("2" + 2) // 22
+console.log(11 + 7) // 18
+console.log(6 + "5") // 65
+console.log("My points: " + 5 + 9) // My points: 14 NOPE >>>> My points: 54
+console.log(2 + 2) // 4
+console.log("11" + "14") // 1114
+
+
+
+
+
+// When the user clicks the purchase button, render out
+// "Something went wrong, please try again" in the paragraph
+// that has the id="error".
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <img src="images/shoe.jpeg" alt="Nike shoe">
+        <p>Nike shoe</p>
+        <button>Purchase - $149</button>
+        <p id="error"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+function errorMessage() {
+    let err = document.getElementbyId("error")
+    err.textContent = "Something went wrong, please try again"
+
+}
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <img src="images/shoe.jpeg" alt="Nike shoe">
+        <p>Nike shoe</p>
+        <button>Purchase - $149</button>
+        <p id="error" onclick="errorMessage()"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
