@@ -1,4 +1,4 @@
-/*SQL-EASY.COM*/
+--SQL-EASY.COM--
 
 -- Can you return all rows in family_members where num_books_read is a value greater or equal to 180?
 SELECT *
@@ -73,7 +73,7 @@ GROUP BY species;
 
 
 
-/*SQLBOLT*/
+--SQLBOLT--
 
 -- # Find the movie with a row id of 6
 SELECT * 
